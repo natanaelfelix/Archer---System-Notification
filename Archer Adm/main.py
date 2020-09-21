@@ -3,7 +3,7 @@ from login import login_inter, valida_login
 from servicos import servicos
 import sys
 
-
+#classe principal
 class Main(QMainWindow, login_inter.Ui_MainWindow):
       def __init__(self, parent=None):
             super().__init__(parent)
